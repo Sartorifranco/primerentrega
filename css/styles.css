@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 3px;
+    font-family: arial;
+}
+
+.header{
+        background-color: rgb(64, 101, 133);
+        padding: 00.5em 0.5em;
+        justify-content: center;
+        align-self: auto;
+        text-align: center;
+        font-size: large;
+        font-style: normal;
+}
+
+.navbar ul li{
+        font-size: 20px;
+        display: inline;
+        padding: 5px;
+        text-align: center;
+        float: right;
+        bottom: 15px;
+        cursor: pointer;
+        align-self: auto;
+        padding-bottom: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.redes{
+    color: black;
+}
+
+
+#contenedor{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.primero{
+    background-color: rgb(64, 101, 133);
+    width: 20%;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    list-style-type: none;
+}
+
+.educacion{
+    list-style-type: none;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    align-self: auto;
+    margin-top: 2em;
+}
+
+.edu{
+    text-align: center;
+    margin-top: 1px;
+    font-size: 30px;
+}
+
+.segundo{
+    background-color: rgb(64, 101, 133);
+    width: 20%;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    list-style-type: none;
+}
+
+.experiencia{
+    list-style-type: none;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    align-self: auto;
+    margin-top: 2em;
+}
+
+.exp{
+    text-align: center;
+    margin-top: 1px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.tercero{
+    background-color: rgb(64, 101, 133);
+    width: 20%;
+    padding: 1%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    list-style-type: none;
+}
+
+.gustos{
+    list-style-type: none;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    align-self: auto;
+    margin-top: 2em;
+}
+.footer{
+    margin-top: 4em;
+    border-top: 5px solid white;
+    padding: 2em 3em;
+    background-color: rgb(64, 101, 133);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data{
+    background-color: rgb(138, 140, 243);
+    padding: 2em;
+    color: black;
+    border-radius: 15px;
+}
+
+.map{
+    width: 60%;
+    border-radius: 25px;
+}
