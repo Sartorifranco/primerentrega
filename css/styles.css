@@ -29,12 +29,32 @@
 a{
     text-decoration: none;
     color: white;
+    
+}
+
+a:hover {
+    color: rgb(19, 38, 53);
 }
 
 .redes{
     color: black;
 }
 
+.secundario{
+    color: white;
+}
+
+.mkt{
+    color: white;
+}
+
+.publi{
+    color: white;
+}
+
+.dise{
+    color: white;
+}
 
 #contenedor{
     width: 90%;
