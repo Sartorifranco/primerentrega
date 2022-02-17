@@ -3,7 +3,6 @@
     padding: 0.1em;
     font-family: arial;
 }
-
 .header{
         background-color: rgb(64, 101, 133);
         padding:0.01rem 0.01rem;
@@ -13,8 +12,6 @@
         font-size: large;
         font-style: normal;
 }
-
-
 .cañada{
     padding: 1.5em;
     display: flex;
@@ -22,7 +19,6 @@
     width: 100%;
     height: 50%;
 }
-
 .navbar ul li{
         font-size: 1em;
         display: inline;
@@ -34,44 +30,41 @@
         align-self: auto;
         padding-bottom: 1em;
 }
-
 a{
     text-decoration: none;
     color: white;
     
 }
-
 a:hover {
-    color: rgb(19, 38, 53);
+    color: rgb(238, 238, 238);
 }
-
 .redes{
     color: black;
 }
-
 .secundario{
-    color: white;
+    color: rgb(255, 255, 255);
 }
-
 .mkt{
     color: white;
 }
-
 .publi{
     color: white;
 }
-
 .dise{
     color: white;
 }
-
+.indonesia:hover, .vertical:hover, .provi:hover{
+    color: black;
+}
+.github:hover{
+    color: black;
+}
 #contenedor{
     width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
 }
-
 .primero{
     background-color: rgb(64, 101, 133);
     width: 20%;
@@ -80,7 +73,6 @@ a:hover {
     border-radius: 1em;
     list-style-type: none;
 }
-
 .educacion{
     list-style-type: none;
     padding: 1%;
@@ -89,13 +81,11 @@ a:hover {
     align-self: auto;
     margin-top: 2em;
 }
-
 .edu{
     text-align: center;
     margin-top: 1px;
     font-size: 30px;
 }
-
 .segundo{
     background-color: rgb(64, 101, 133);
     width: 20%;
@@ -104,7 +94,6 @@ a:hover {
     border-radius: 15px;
     list-style-type: none;
 }
-
 .experiencia{
     list-style-type: none;
     padding: 1%;
@@ -113,14 +102,12 @@ a:hover {
     align-self: auto;
     margin-top: 2em;
 }
-
 .exp{
     text-align: center;
     margin-top: 1px;
     font-size: 30px;
     list-style-type: none;
 }
-
 .tercero{
     background-color: rgb(64, 101, 133);
     width: 20%;
@@ -129,7 +116,6 @@ a:hover {
     border-radius: 15px;
     list-style-type: none;
 }
-
 .gustos{
     list-style-type: none;
     padding: 1%;
@@ -144,20 +130,151 @@ a:hover {
     padding: 2em 3em;
     background-color: rgb(64, 101, 133);
 }
-
 .footer{
     display: flex;
     justify-content: space-between;
 }
-
 .data{
     background-color: rgb(138, 140, 243);
     padding: 2em;
     color: black;
     border-radius: 15px;
 }
-
 .map{
     width: 60%;
     border-radius: 25px;
+}
+
+@media screen and (min-width:1px) and (max-width:659px){
+    body{
+        width: 100%;
+    }
+    .header{
+        background-color: rgb(60, 78, 56)
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cañada{
+        width: 60%;
+    }
+
+    #contenedor {
+        width: 100%;
+        top: 5em;
+    }
+    .primero, .segundo, .tercero{
+        background-color: rgb(60, 78, 56);
+    }
+    .edu{
+        width: 100%;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .educacion{
+        text-align: center;
+        font-size: 16px;
+        word-wrap: break-word;
+    }
+    .experiencia{
+        width: 100%;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .exp{
+        width: 100%;
+        text-align: center;
+        font-size:1.2em;
+    }
+    .gus{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .VideoUno{
+        width: 100%;
+        padding-top:1em;
+    }
+    .VideoDos{
+        width: 100%;
+    }
+    .VideoTres{
+        width: 100%;
+    }
+    .footer{
+        background-color : rgb(60, 78, 56)
+    }
+    .data{
+        width: 50%;
+        background-color: rgb(170, 170, 165)
+    }
+    .mapa{
+        width: 100%;
+        padding-left: 20px;
+        border-radius: 15px;
+    }
+}
+@media (min-width:660px) and (max-width:989px){
+    body {
+        width: 100%;
+    }
+    .header{
+        background-color: rgb(93, 69, 116)
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+    }
+    .cañada{
+        width: 100%;
+        align-items: center;
+    }
+    #contenedor {
+        width: 100%
+    }
+    .primero, .segundo, .tercero{
+        background-color:rgb(93, 69, 116)
+    }
+    .edu{
+        width: 100%;
+        text-align: center
+    }
+    .educacion{
+        text-align: center
+    }
+    .experiencia{
+        width: 100%;
+        text-align: center
+    }
+    .exp{
+        width: 100%;
+        text-align: center
+    }
+    .gus{
+        width: 100%;
+        text-align: center
+    }
+    .VideoUno{
+        width: 100%;
+        padding-top:1.5em;
+    }
+    .VideoDos{
+        width: 100%;
+    }
+    .VideoTres{
+        width: 100%;
+    }
+    .footer{
+        background-color:rgb(93, 69, 116)
+    }
+    .data{
+        width: 20%;
+        background-color: rgb(100, 100, 100)
+    }
+    .mapa{
+        width: 75%;
+        border-radius: 15px;
+    }
 }
