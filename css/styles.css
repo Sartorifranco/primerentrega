@@ -237,6 +237,9 @@ a:hover {
     .primero, .segundo, .tercero{
         background-color:rgb(93, 69, 116)
     }
+    .edu, .exp, .gus{
+        word-wrap: break-word;
+    }
     .edu{
         width: 100%;
         text-align: center
@@ -268,6 +271,74 @@ a:hover {
     }
     .footer{
         background-color:rgb(93, 69, 116)
+    }
+    .data{
+        width: 20%;
+        background-color: rgb(100, 100, 100)
+    }
+    .data{
+        word-wrap: break-word;
+    }
+    .mapa{
+        width: 75%;
+        border-radius: 15px;
+    }
+}
+@media screen and (min-width:989px) and (max-width:2000px){
+    body {
+        width: 100%;
+    }
+    .header{
+        background-color: rgb(64, 101, 133)
+    }
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+    }
+    .cañada{
+        width: 100%;
+        align-items: center;
+    }
+    #contenedor {
+        width: 100%
+    }
+    .primero, .segundo, .tercero{
+        background-color:rgb(64, 101, 133)
+    }
+    .edu, .exp, .gus{
+        word-wrap: break-word;
+    }
+    .edu{
+        width: 100%;
+        text-align: center
+    }
+    .educacion{
+        text-align: center
+    }
+    .experiencia{
+        width: 100%;
+        text-align: center
+    }
+    .exp{
+        width: 100%;
+        text-align: center
+    }
+    .gus{
+        width: 100%;
+        text-align: center
+    }
+    .VideoUno{
+        width: 100%;
+        padding-top:1.5em;
+    }
+    .VideoDos{
+        width: 100%;
+    }
+    .VideoTres{
+        width: 100%;
+    }
+    .footer{
+        background-color:rgb(64, 101, 133)
     }
     .data{
         width: 20%;
